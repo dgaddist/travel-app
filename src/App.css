@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  font-family: Inter;
+  font-size: 20px;
+  justify-content: space-evenly;
+}
+.login,
+.signup {
+  height: 30px;
+  border: 1px solid lightblue;
+  color: black;
+  outline-offset: 0.5rem;
+  background-color: lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Inter;
+}
+.home,
+.about,
+.faq {
+  display: flex;
+}
+.about-us {
+  display: block;
+  margin: 0 auto;
+  font-family: Inter;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+  background-color: lightblue;
+  border: 4px solid lightblue;
+  border-radius: 8px;
+  width: 800px;
+  height: 550px;
+}
+.details {
+  text-align: center;
+  color: gray;
+  width: 700px;
+  font-size: 18px;
+}
+
+.slogan {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: none;
+}
+
+.footer {
+  text-align: center;
+}
