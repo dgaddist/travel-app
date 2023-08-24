@@ -8,6 +8,17 @@ export default function Body() {
         itinerary complete with recommended destinations, accommodations, and
         activities
       </div>
+      <div>
+        <div>
+          <img src="./Jamaica.jpg" width="200px" />
+        </div>
+        <div>
+          <img src="./Japan.jpg" width="200px" />
+        </div>
+        <div>
+          <img src="./Maldives.jpg" width="200px" height="150px" />
+        </div>
+      </div>
     </div>
   );
 }
