@@ -1,9 +1,11 @@
 .header {
   display: flex;
+  justify-content: space-between;
   font-family: Inter;
   font-size: 20px;
-  justify-content: space-evenly;
+  margin-top: 15px;
 }
+
 .login,
 .signup {
   height: 30px;
@@ -18,7 +20,6 @@
 .home,
 .about,
 .faq {
-  display: flex;
 }
 .about-us {
   display: block;

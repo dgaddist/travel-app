@@ -18,7 +18,15 @@ export default function Body() {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="./Jamaica.jpg" height="200px" />
                 <Card.Body>
-                  <Card.Title>Jamaica</Card.Title>
+                  <Card.Title>
+                    <img
+                      width="25"
+                      height="25"
+                      src="https://img.icons8.com/color/48/marker--v1.png"
+                      alt="marker--v1"
+                    />
+                    Jamaica
+                  </Card.Title>
                   <Card.Text>
                     An emerald island in the Caribbean often known as the
                     birthplace of reggae music and a hotspot for pure tropical
@@ -34,7 +42,15 @@ export default function Body() {
               <Card style={{ width: "18rem" }}>
                 <Card.Img variant="top" src="./Japan.jpg" height="200px" />
                 <Card.Body>
-                  <Card.Title>Japan</Card.Title>
+                  <Card.Title>
+                    <img
+                      width="25"
+                      height="25"
+                      src="https://img.icons8.com/color/48/marker--v1.png"
+                      alt="marker--v1"
+                    />
+                    Japan
+                  </Card.Title>
                   <Card.Text>
                     Japan is undoubtedly one of the most distinctive places to
                     visit and offers experiences that are hard to find anywhere
@@ -55,7 +71,16 @@ export default function Body() {
                   width="200px"
                 />
                 <Card.Body>
-                  <Card.Title>Maldives</Card.Title>
+                  <Card.Title>
+                    {" "}
+                    <img
+                      width="25"
+                      height="25"
+                      src="https://img.icons8.com/color/48/marker--v1.png"
+                      alt="marker--v1"
+                    />
+                    Maldives
+                  </Card.Title>
                   <Card.Text>
                     With its stunning islands, mesmerizing beaches, and
                     turquoise waters, Maldives is famous for its exciting water
