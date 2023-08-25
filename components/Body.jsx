@@ -7,12 +7,22 @@ export default function Body() {
       <div className="about-us">
         <div className="slogan">Your Passport to Wanderlust</div>
         <div className="details">
-          We offer a unique feature where users input their favorite activities,
-          budget, and travel dates, and the platform generates a tailored
-          itinerary complete with recommended destinations, accommodations, and
-          activities
+          Step into the world of Wanderlust Compass, where we take the stress
+          out of travel planning for you! Just share your preferred activities,
+          budget, and travel dates, and our dedicated Travel Agent will curate a
+          personalized itinerary, complete with suggested destinations,
+          accommodations, and activities.
         </div>
         <div>
+          <div>
+            <img
+              className="headshot"
+              src="./headshot.jpg.jpg"
+              width="150px"
+              height="100px"
+            />
+            <div>Destinations recommended by your Travel Agent</div>
+          </div>
           <span className="Travel-cards">
             <span className="Jamaica-card">
               <Card style={{ width: "18rem" }}>
@@ -34,7 +44,7 @@ export default function Body() {
                     breathtaking beaches, hidden blue lagoons, lost waterfalls,
                     an endless list of paradise resorts, and so much more!
                   </Card.Text>
-                  <Button variant="primary">View on Google Maps</Button>
+                  <Button variant="primary">Notify my Travel Agent</Button>
                 </Card.Body>
               </Card>
             </span>
@@ -58,7 +68,7 @@ export default function Body() {
                     Eastern traditions and Western modernity that will leave you
                     fascinated.
                   </Card.Text>
-                  <Button variant="primary">View on Google Maps</Button>
+                  <Button variant="primary">Notify my Travel Agent</Button>
                 </Card.Body>
               </Card>
             </span>
@@ -89,7 +99,7 @@ export default function Body() {
                     <br />
                     <br />
                   </Card.Text>
-                  <Button variant="primary">View on Google Maps</Button>
+                  <Button variant="primary">Notify my Travel Agent</Button>
                 </Card.Body>
               </Card>
             </span>
