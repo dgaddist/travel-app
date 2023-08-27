@@ -74,9 +74,23 @@
   margin-top: 20px;
 }
 
+.travel-agent {
+  font-family: Inter;
+  font-size: 14px;
+  width: 500px;
+  color: black;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+  right: 50px;
+}
 .headshot {
   border: 1px solid black;
   border-radius: 200px;
+  position: relative;
+  left: 250px;
+  bottom: 30px;
 }
 .about-us {
   display: block;
@@ -84,12 +98,16 @@
   font-family: Inter;
   text-align: center;
   color: black;
-  font-size: 14px;
+  font-size: 18px;
   background-color: lightblue;
   border: 4px solid lightblue;
   border-radius: 8px;
   width: 1300px;
   height: 850px;
+}
+.travel-recommendations {
+  font-size: 14px;
+  font-family: Inter;
 }
 .Travel-cards {
   display: flex;

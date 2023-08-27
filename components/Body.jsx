@@ -15,13 +15,20 @@ export default function Body() {
         </div>
         <div>
           <div>
+            <span className="travel-agent">
+              Meet Angie, your committed Travel Agent with more than 5 years of
+              expertise! Renowned for crafting unforgettable journeys, providing
+              reassurance, and adeptly handling intricate travel details.
+            </span>
             <img
               className="headshot"
               src="./headshot.jpg.jpg"
               width="150px"
               height="100px"
             />
-            <div>Destinations recommended by your Travel Agent</div>
+            <div className="travel-recom">
+              Destinations recommended by your Travel Agent
+            </div>
           </div>
           <span className="Travel-cards">
             <span className="Jamaica-card">
