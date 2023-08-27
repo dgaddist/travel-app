@@ -44,7 +44,15 @@ export default function Body() {
                     breathtaking beaches, hidden blue lagoons, lost waterfalls,
                     an endless list of paradise resorts, and so much more!
                   </Card.Text>
-                  <Button variant="primary">Notify my Travel Agent</Button>
+                  <Button variant="primary">
+                    <img
+                      width="25"
+                      height="25"
+                      src="https://img.icons8.com/sf-ultralight/25/000000/alarm.png"
+                      alt="alarm"
+                    />
+                    Notify my Travel Agent
+                  </Button>
                 </Card.Body>
               </Card>
             </span>
@@ -68,7 +76,15 @@ export default function Body() {
                     Eastern traditions and Western modernity that will leave you
                     fascinated.
                   </Card.Text>
-                  <Button variant="primary">Notify my Travel Agent</Button>
+                  <Button variant="primary">
+                    <img
+                      width="25"
+                      height="25"
+                      src="https://img.icons8.com/sf-ultralight/25/000000/alarm.png"
+                      alt="alarm"
+                    />
+                    Notify my Travel Agent
+                  </Button>
                 </Card.Body>
               </Card>
             </span>
@@ -99,7 +115,15 @@ export default function Body() {
                     <br />
                     <br />
                   </Card.Text>
-                  <Button variant="primary">Notify my Travel Agent</Button>
+                  <Button variant="primary">
+                    <img
+                      width="25"
+                      height="25"
+                      src="https://img.icons8.com/sf-ultralight/25/000000/alarm.png"
+                      alt="alarm"
+                    />
+                    Notify my Travel Agent
+                  </Button>
                 </Card.Body>
               </Card>
             </span>
