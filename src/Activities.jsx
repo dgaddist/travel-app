@@ -10,6 +10,7 @@ export default function Activities() {
             <Card.Img variant="top" src="hiking.jpg" />
             <Card.Body>
               <Card.Title>
+                <img className="star-icon" src="icon-star.png" width="15px" />{" "}
                 <span className="raiting">4.9 </span>
                 <span className="reviews">(500)</span>
               </Card.Title>
@@ -24,9 +25,10 @@ export default function Activities() {
         </div>
         <div>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" src="zipline.jpg" />
+            <Card.Img variant="top" src="zipline.jpg" height="285px" />
             <Card.Body>
               <Card.Title>
+                <img className="star-icon" src="icon-star.png" width="15px" />{" "}
                 <span className="raiting">4.7 </span>
                 <span className="reviews">(480)</span>
               </Card.Title>
@@ -44,6 +46,7 @@ export default function Activities() {
             <Card.Img variant="top" src="boat.jpg" />
             <Card.Body>
               <Card.Title>
+                <img className="star-icon" src="icon-star.png" width="15px" />{" "}
                 <span className="raiting">4.8 </span>
                 <span className="reviews">(350)</span>
               </Card.Title>
@@ -61,6 +64,7 @@ export default function Activities() {
             <Card.Img variant="top" src="ski.jpg" />
             <Card.Body>
               <Card.Title>
+                <img className="star-icon" src="icon-star.png" width="15px" />{" "}
                 <span className="raiting">4.9 </span>
                 <span className="reviews">(520)</span>
               </Card.Title>

@@ -139,6 +139,7 @@
 .Activity-cards {
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 .footer {
   text-align: center;
