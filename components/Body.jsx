@@ -49,7 +49,7 @@ export default function Body() {
                     birthplace of reggae music and a hotspot for pure tropical
                     fun. Jamaica is packed full of surprises: miles of
                     breathtaking beaches, hidden blue lagoons, lost waterfalls,
-                    an endless list of paradise resorts, and so much more!
+                    an endless list of paradise resorts!
                   </Card.Text>
                   <Button variant="primary">
                     <img
@@ -82,6 +82,8 @@ export default function Body() {
                     else in the world. The unique Japanese culture integrates
                     Eastern traditions and Western modernity that will leave you
                     fascinated.
+                    <br />
+                    <br />
                   </Card.Text>
                   <Button variant="primary">
                     <img

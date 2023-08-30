@@ -83,13 +83,12 @@
   margin: 0 auto;
   position: relative;
   top: 40px;
-  right: 50px;
 }
 .headshot {
   border: 1px solid black;
   border-radius: 200px;
   position: relative;
-  left: 250px;
+  left: 350px;
   bottom: 30px;
 }
 .about-us {
@@ -103,7 +102,7 @@
   border: 4px solid lightblue;
   border-radius: 8px;
   width: 1300px;
-  height: 850px;
+  height: 1050px;
 }
 .travel-recommendations {
   font-size: 14px;
@@ -130,6 +129,17 @@
   letter-spacing: none;
 }
 
+.Activity-title {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: none;
+  text-align: center;
+}
+.Activity-cards {
+  display: flex;
+  justify-content: center;
+}
 .footer {
   text-align: center;
 }
