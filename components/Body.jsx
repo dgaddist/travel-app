@@ -1,8 +1,21 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardBody from "../src/Cardb";
+import bodydata from "../src/bodydata";
 
 export default function Body() {
+  // <Hero />
+  const travelcards = bodydata.map((item) => {
+    return (
+      <CardBody
+        img={item.image}
+        name={item.name}
+        details={item.detail}
+        agent={item.notify}
+      />
+    );
+  });
+
   return (
     <div>
       <div className="about-us">
@@ -31,37 +44,7 @@ export default function Body() {
               Destinations recommended by your Travel Agent
             </div>
           </div>
-
-          <span className="Travel-cards">
-            <CardBody
-              img="./Jamaica.jpg"
-              name="Jamaica"
-              details=" An emerald island in the Caribbean often known as the
-                    birthplace of reggae music and a hotspot for pure tropical
-                    fun. Jamaica is packed full of surprises: miles of
-                    breathtaking beaches, hidden blue lagoons, and endless list of paradise resorts!"
-              agent=" Notify my Travel Agent"
-            />
-            <CardBody
-              img="./Japan.jpg"
-              name="Japan"
-              details=" Japan is undoubtedly one of the most distinctive places to
-                    visit and offers experiences that are hard to find anywhere
-                    else in the world. The unique Japanese culture integrates
-                    Eastern traditions and Western modernity that will leave you
-                    fascinated."
-              agent=" Notify my Travel Agent"
-            />
-            <CardBody
-              img="./Maldives.jpg"
-              name="Maldives"
-              details="s With its stunning islands, mesmerizing beaches, and
-                    turquoise waters, Maldives is famous for its exciting water
-                    activities. If you are an adventure enthusiast, the variety
-                    of water sports will make you want to stay here forever."
-              agent=" Notify my Travel Agent"
-            />
-          </span>
+          <span className="Travel-cards">{travelcards}</span>
         </div>
       </div>
     </div>
