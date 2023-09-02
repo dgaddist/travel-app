@@ -1,34 +1,25 @@
-import Card from "react-bootstrap/Card";
 import activitiesdata from "./activitiesdata";
 import ActivityBody from "./Activitiesb";
 
 export default function Activities() {
   // <Hero />
+  const activitycards = activitiesdata.map((item) => {
+    return (
+      <ActivityBody
+        image={item.image}
+        activity={item.activity}
+        rating={item.rating}
+        reviews={item.reviews}
+        price={item.price}
+        starIcon={item.starIcon}
+      />
+    );
+  });
 
   return (
     <div>
-      <ActivityBody
-        image="./hiking.jpg"
-        rating="4.9"
-        reviews="500 "
-        activity="Hiking Adventure in Rocky Mountain National Park"
-        starIcon="./icon-star.png"
-        price="139"
-      />
+      <div className="Activity-title">Highly Rated Activities</div>
+      <div className="Activity-cards">{activitycards}</div>
     </div>
   );
 }
-
-// const activtiycards = activitiesdata.map((item) => {
-//   return (
-//     <ActivityBody />
-//       img={item.image}
-//       activity={item.name}
-//       rating={item.rating}
-//       reviews={item.reviews}
-//       price={item.price}
-//       icon={item.starIcon}
-//     />
-//   );
-// });
-// {activtiycards}

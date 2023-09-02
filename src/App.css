@@ -135,11 +135,21 @@
   font-size: 40px;
   letter-spacing: none;
   text-align: center;
+  margin: 20px 0px 20px 0px;
 }
 .Activity-cards {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+.reviews {
+  font-family: Inter;
+  color: gray;
+  font-size: 16px;
+}
+.price-list {
+  font-family: Inter;
+  font-weight: 600;
 }
 .footer {
   text-align: center;

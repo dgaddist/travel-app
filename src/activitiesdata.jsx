@@ -2,15 +2,15 @@ export default [
   {
     image: "./hiking.jpg",
     rating: "4.9",
-    reviews: "500 ",
-    activity: "Hiking Adventure in Rocky Mountain National Park",
+    reviews: "500",
+    activity: "Hiking in Navilawa Village Trek",
     starIcon: "./icon-star.png",
     price: "139",
   },
   {
     image: "./zipline.jpg",
     rating: "4.7",
-    reviews: "480 ",
+    reviews: "480",
     activity: "Canopy Zipline in Puerto Vallarta",
     starIcon: "./icon-star.png",
     price: "139",
@@ -26,9 +26,9 @@ export default [
   {
     image: "./ski.jpg",
     rating: "4.9",
-    reviews: "520 ",
+    reviews: "520",
     activity: "Group Jet Ski Rentals in Miami",
     starIcon: "./icon-star.png",
-    pice: "145",
+    price: "145",
   },
 ];
