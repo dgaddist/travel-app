@@ -35,8 +35,8 @@ export default function Body() {
             <img
               className="headshot"
               src="./headshot.jpg.jpg"
-              width="150px"
-              height="100px"
+              width="200px"
+              height="150px"
             />
             <div className="travel-recom">
               Destinations recommended by your Travel Agent

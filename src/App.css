@@ -76,7 +76,7 @@
 
 .travel-agent {
   font-family: Inter;
-  font-size: 14px;
+  font-size: 16px;
   width: 500px;
   color: black;
   display: block;
@@ -103,15 +103,25 @@
   border-radius: 8px;
   width: 1300px;
   height: 1050px;
+  background-image: url("./passport.png");
+  background-repeat: no-repeat;
 }
-.travel-recommendations {
-  font-size: 14px;
+.travel-recom {
+  font-size: 18px;
   font-family: Inter;
+  font-weight: 600;
+}
+.destination-details {
+  font-family: Inter;
+  font-size: 18px;
+  height: 240px;
+  width: 300px;
+  text-align: center;
 }
 .Travel-cards {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
   gap: 20px;
 }
 .bell-icon {
@@ -155,5 +165,6 @@
   font-weight: 600;
 }
 .footer {
+  margin-top: 30px;
   text-align: center;
 }

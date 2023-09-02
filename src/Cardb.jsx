@@ -16,7 +16,7 @@ export default function CardBody(props) {
             />
             {props.name}
           </Card.Title>
-          <Card.Text>{props.details}</Card.Text>
+          <Card.Text className="destination-details">{props.details}</Card.Text>
           <Button variant="primary">
             <img
               className="bell-icon"
