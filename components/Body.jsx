@@ -1,5 +1,3 @@
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
 import CardBody from "../src/Cardb";
 import bodydata from "../src/bodydata";
 

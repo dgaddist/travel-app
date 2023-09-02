@@ -114,6 +114,9 @@
   margin-top: 20px;
   gap: 20px;
 }
+.bell-icon {
+  margin-right: 5px;
+}
 .details {
   display: block;
   margin: 0 auto;
